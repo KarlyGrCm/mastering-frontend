@@ -1,0 +1,13 @@
+@import 'variables';
+
+@mixin tablet-breakpoint {
+  @media (min-width: #{$tablet-min-width}) {
+    @content;
+  }
+}
+
+@mixin desktop-breakpoint {
+  @media (min-width: #{$desktop-min-width}) {
+    @content;
+  }
+}
