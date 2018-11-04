@@ -1,8 +1,9 @@
 // This should be imported by the main.js file
 
 // test for scss variables
-$primary-color: #2a3fbb;
+@import "header";
 
+$header__logo-size: 26px;
 * {
   padding: 0;
   margin: 0;
@@ -10,4 +11,15 @@ $primary-color: #2a3fbb;
 
 h1 {
   color: $primary-color;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button { border:none; }
+
+.main {
+  border-top: #D8E3FE solid 1px;
 }
