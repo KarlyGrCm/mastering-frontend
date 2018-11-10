@@ -1,0 +1,23 @@
+.video {
+  font-family: 'Roboto';
+  background-image: url('/reference/assets/hero.png');
+  height: rem-calc(570px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+  &__subtext {
+    font-size: rem-calc(10px);
+  }
+  &__title {
+    font-size: rem-calc(48px);
+    font-family: 'Quicksand', sans-serif;
+  }
+  &__description {
+    font-size: rem-calc(15px);
+    line-height: rem-calc(29px);
+    max-width: rem-calc(502px);
+    justify-content: center;
+  }
+}
